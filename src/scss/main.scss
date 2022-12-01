@@ -11,7 +11,7 @@
 .site-container {
   font-family: "Oswald", sans-serif;
   background-color: rgba(10, 12, 38, 1);
-  max-width: 1920px;
+  max-width: 100%;
 }
 .container {
   max-width: 1080px;
@@ -37,6 +37,7 @@
   line-height: 160%;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header__inner-info-title {
@@ -78,7 +79,6 @@
   margin-left: auto;
   z-index: 20;
   ul {
-    position: fixed;
     top: 20px;
     right: 95px;
     display: flex;
@@ -111,6 +111,7 @@
   background: rgba(10, 12, 38, 1);
   background-clip: padding-box;
   border: solid 2px transparent;
+  cursor: pointer;
   ::before {
     content: "";
     position: absolute;
@@ -372,7 +373,7 @@
 }
 
 .header__sub-content {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -380,13 +381,20 @@
   width: 100vw;
   height: 240px;
   margin-top: 70px;
-  margin-left: -165px;
+  background: -o-linear-gradient(
+    0.04deg,
+    rgb(203, 71, 160),
+    rgb(105, 71, 203),
+    rgb(0, 255, 133)
+  );
   background: linear-gradient(
     89.96deg,
-    rgba(203, 71, 160, 1),
-    rgba(105, 71, 203, 1),
-    rgba(0, 255, 133, 1)
+    rgb(203, 71, 160),
+    rgb(105, 71, 203),
+    rgb(0, 255, 133)
   );
+  left: 0;
+  right: 0;
 }
 
 .header__sub-content-title-one {
@@ -433,7 +441,7 @@
 .main__inner-items {
   display: flex;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 400px;
 }
 
 .main__inner-images {
@@ -564,6 +572,7 @@
   text-transform: uppercase;
   color: #f8f6fa;
   border: none;
+  cursor: pointer;
 }
 .main__slider-items {
   display: flex;
@@ -605,6 +614,7 @@
   line-height: 160%;
   text-transform: uppercase;
   color: #f8f6fa;
+  cursor: pointer;
 }
 .slider__item-inner-title {
   position: relative;
@@ -789,21 +799,28 @@ input[type="number"] {
   background: #00ff85;
 }
 .main__sub-content {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
   width: 100vw;
   height: 240px;
-  margin-top: 130px;
-  margin-left: -165px;
+  margin-top: 70px;
+  background: -o-linear-gradient(
+    0.04deg,
+    rgb(203, 71, 160),
+    rgb(105, 71, 203),
+    rgb(0, 255, 133)
+  );
   background: linear-gradient(
     89.96deg,
-    rgba(203, 71, 160, 1),
-    rgba(105, 71, 203, 1),
-    rgba(0, 255, 133, 1)
+    rgb(203, 71, 160),
+    rgb(105, 71, 203),
+    rgb(0, 255, 133)
   );
+  left: 0;
+  right: 0;
 }
 
 .artists__title {
@@ -813,6 +830,7 @@ input[type="number"] {
   margin-bottom: 60px;
   margin-top: 110px;
   text-align: center;
+  margin-top: 400px;
   span {
     background: linear-gradient(180deg, #08b9d0 0%, #11ce91 84.37%),
       linear-gradient(0deg, #f8f6fa, #f8f6fa);
@@ -825,7 +843,6 @@ input[type="number"] {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: -10px;
 }
 .artists__info-item {
   position: relative;
@@ -883,6 +900,7 @@ input[type="number"] {
   text-transform: uppercase;
   margin: 0 auto;
   display: block;
+  cursor: pointer;
 }
 
 .artists__sub-content-subtitle {
@@ -929,6 +947,7 @@ input[type="number"] {
   text-transform: uppercase;
   margin: 0 auto;
   display: block;
+  cursor: pointer;
 }
 .artists__sub-content-circles {
   display: flex;
@@ -1026,5 +1045,8 @@ input[type="number"] {
   position: relative;
   overflow: hidden;
   height: 100vh;
+}
+.collapsible {
+  display: none;
 }
 @import "media";

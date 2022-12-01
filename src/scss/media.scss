@@ -3,15 +3,7 @@
     margin-right: 150px;
     margin-left: 400px;
   }
-  .collapsible {
-    display: none;
-  }
-  .header__sub-content {
-    margin-left: -415px;
-  }
-  .main__sub-content {
-    margin-left: -415px;
-  }
+
   .logo {
     position: sticky;
     left: 415px;
@@ -34,12 +26,6 @@
     padding: 0 330px 0 265px;
   }
 
-  .header__sub-content {
-    margin-left: -265px;
-  }
-  .main__sub-content {
-    margin-left: -265px;
-  }
   .logo {
     left: 265px;
   }
@@ -87,12 +73,7 @@
   .header__active {
     padding: 0 171px 0 190px;
   }
-  .header__sub-content {
-    width: 105vw;
-  }
-  .main__sub-content {
-    width: 105vw;
-  }
+
   .logo {
     left: 190px;
   }
@@ -157,12 +138,6 @@
     padding: 0 176px 0 140px;
   }
 
-  .header__sub-content {
-    width: 110vw;
-  }
-  .main__sub-content {
-    width: 118vw;
-  }
   .logo {
     left: 140px;
   }
@@ -179,12 +154,7 @@
   .header__active {
     padding: 0 134px 0 90px;
   }
-  .header__sub-content {
-    width: 125vw;
-  }
-  .main__sub-content {
-    width: 129vw;
-  }
+
   .logo {
     left: 90px;
   }
@@ -243,13 +213,6 @@
     left: auto;
   }
 
-  .main__sub-content {
-    width: 137vw;
-    padding: 0 150px;
-  }
-  .header__sub-content {
-    width: 140vw;
-  }
   .logo {
     left: 50px;
   }
@@ -286,12 +249,7 @@
   .slider__item {
     height: 375px;
   }
-  .main__sub-content {
-    width: 145vw;
-  }
-  .header__sub-content {
-    width: 145vw;
-  }
+
   .header__navigation ul {
     right: 20px;
   }
@@ -332,9 +290,6 @@
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(350px, 0.3fr));
     column-gap: 20px;
-  }
-  .header__sub-content {
-    width: 146vw;
   }
 }
 @media (max-width: 935px) {
@@ -447,21 +402,8 @@
     right: 0;
     width: 100px;
   }
-  .header__sub-content {
-    width: 150vw;
-  }
-  .main__sub-content {
-    width: 150vw;
-  }
 }
 @media (max-width: 870px) {
-  .main__sub-content {
-    padding: 0 200px;
-    width: 152vw;
-  }
-  .header__sub-content {
-    width: 152vw;
-  }
   .slider__dots-item {
     display: none;
   }
@@ -509,12 +451,6 @@
   .main__inner-images {
     justify-content: center;
   }
-  .header__sub-content {
-    width: 154vw;
-  }
-  .main__sub-content {
-    width: 155vw;
-  }
 }
 
 @media (max-width: 767px) {
@@ -536,14 +472,6 @@
   .slider__item {
     height: 450px;
   }
-  .main__sub-content {
-    padding: 0px 250px;
-    width: 160vw;
-  }
-  .header__sub-content {
-    width: 160vw;
-    padding: 0 100px;
-  }
 }
 @media (max-width: 740px) {
   .main__sub-content {
@@ -552,6 +480,9 @@
     img {
       padding: 20px;
     }
+  }
+  .artists__title {
+    margin-top: 790px;
   }
 }
 @media (max-width: 690px) {
@@ -563,12 +494,6 @@
   }
   .header__sub-content-title-three {
     font-size: 50px;
-  }
-  .main__sub-content {
-    width: 165vw;
-  }
-  .header__sub-content {
-    width: 165vw;
   }
 }
 
@@ -591,12 +516,6 @@
   }
   .slider__item-inner-btn {
     top: 150px;
-  }
-  .header__sub-content {
-    width: 170vw;
-  }
-  .main__sub-content {
-    width: 168vw;
   }
 }
 @media (max-width: 639px) {
@@ -625,12 +544,6 @@
     top: 0px;
     left: 0px;
   }
-  .header__sub-content {
-    width: 172vw;
-  }
-  .main__sub-content {
-    width: 172vw;
-  }
 }
 
 @media (max-width: 600px) {
@@ -653,13 +566,6 @@
   .main__inner-info {
     max-width: 430px;
   }
-
-  .main__sub-content {
-    width: 180vw;
-  }
-  .header__sub-content {
-    width: 175vw;
-  }
 }
 @media (max-width: 550px) {
   .main__inner-info {
@@ -672,13 +578,6 @@
   .main__inner-icons {
     grid-template-columns: 400px;
   }
-  .main__sub-content {
-    width: 185vw;
-  }
-  .header__sub-content {
-    width: 182vw;
-    padding: 0 150px;
-  }
 }
 @media (max-width: 500px) {
   .header__inner-img {
@@ -690,12 +589,7 @@
   .main__inner-items {
     align-items: center;
   }
-  .main__sub-content {
-    width: 192vw;
-  }
-  .header__sub-content {
-    width: 191vw;
-  }
+
   .btn__learn-more {
     width: 140px;
   }
@@ -720,12 +614,6 @@
     position: fixed;
     right: auto;
     transform: translateY(275px);
-  }
-  .main__sub-content {
-    width: 195vw;
-  }
-  .header__sub-content {
-    width: 193vw;
   }
 }
 
@@ -820,12 +708,6 @@
     margin-top: -39px;
   }
 
-  .header__sub-content {
-    width: 201vw;
-  }
-  .main__sub-content {
-    width: 205vw;
-  }
   .header__inner-aside-data {
     margin-top: 0px;
     padding: 20px;
@@ -835,6 +717,7 @@
   .main__inner-items {
     display: flex;
     align-items: center;
+    margin-top: 790px;
   }
   .main__inner-images {
     grid-template-columns: 250px;
@@ -845,14 +728,10 @@
   .main__inner-icons {
     grid-template-columns: 350px;
   }
-  .main__sub-content {
-    width: 210vw;
-  }
 }
 @media (max-width: 430px) {
   .header__sub-content {
     flex-direction: column;
-    width: 210vw;
     height: 50vh;
   }
   .header__sub-content-title-one {
@@ -888,16 +767,9 @@
   .artists__sub-content-circles-7 {
     display: none;
   }
-  .main__sub-content {
-    width: 210vw;
-  }
 }
 
 @media (max-width: 375px) {
-  .header__sub-content {
-    flex-direction: column;
-    width: 225vw;
-  }
   #header__inner-btn {
     width: 110px;
   }
@@ -907,9 +779,7 @@
   .learn__more {
     left: 150px;
   }
-  .main__sub-content {
-    width: 230vw;
-  }
+
   .artists__info-item {
     max-width: 300px;
   }
@@ -921,12 +791,6 @@
   .artists__sub-content-circles-6 {
     display: none;
   }
-  .header__sub-content {
-    width: 230vw;
-  }
-  .main__sub-content {
-    width: 230vw;
-  }
 }
 @media (max-width: 345px) {
   .main__inner-icon {
@@ -935,24 +799,16 @@
   .main__inner-icons {
     grid-template-columns: 300px;
   }
-  header__sub-content {
-    width: 232vw;
-  }
 
-  .main__sub-content {
-    width: 232vw;
-  }
   .header__inner-aside-bil-subtitle ::after {
     left: 130px;
   }
 }
 @media (max-width: 320px) {
   .header__sub-content {
-    width: 246vw;
     margin-top: 40px;
   }
   .main__sub-content {
-    width: 246vw;
     margin-top: 40px;
   }
   .slider__item-inner-btn {
@@ -971,7 +827,7 @@
     max-width: 280px;
   }
   .main__inner-items {
-    margin-top: 40px;
+    margin-top: 420px;
   }
   .main__inner-items-2 {
     margin-top: 120px;
@@ -979,10 +835,11 @@
   .main__slider-title {
     margin-top: 60px;
   }
-  .artists__title {
-    margin-top: 60px;
-  }
+
   .artists__sub-content-title {
     margin-top: 60px;
+  }
+  .artists__title {
+    margin-top: 420px;
   }
 }
