@@ -95,7 +95,7 @@ const headerInnerHeight = headerInner.offsetHeight;
 window.addEventListener("scroll", () => {
   let scrollDistance = window.scrollY;
 
-  if (scrollDistance >= headerInnerHeight) {
+  if (scrollDistance >= headerInnerHeight - 55) {
     header.classList.add("header__active");
   } else {
     header.classList.remove("header__active");
