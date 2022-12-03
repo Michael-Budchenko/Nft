@@ -1,4 +1,3 @@
-
 $(function () {
   $(
     '<div class="quantity-nav"><div class="quantity-button quantity-up"><img class="slider__item-price-arrow-up"src="/img/svg/slider__arrow__up.svg"alt="#"/></div><div class="quantity-button quantity-down"> <img class="slider__item-price-arrow-down"src="/img/svg/slider__arrow__down.svg"alt="#"/></div></div>'
@@ -95,7 +94,7 @@ const headerInnerHeight = headerInner.offsetHeight;
 window.addEventListener("scroll", () => {
   let scrollDistance = window.scrollY;
 
-  if (scrollDistance >= headerInnerHeight - 55) {
+  if (scrollDistance >= headerInnerHeight - 40) {
     header.classList.add("header__active");
   } else {
     header.classList.remove("header__active");
@@ -185,3 +184,11 @@ for (let i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+
+
