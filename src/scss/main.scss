@@ -1,10 +1,7 @@
 // базовые подключения
-@import "vars";
 @import "mixins";
-@import "fonts";
 @import "settings";
 @import "vendor";
-@import "./components/header";
 .body {
   position: relative;
 }
