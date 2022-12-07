@@ -1,7 +1,7 @@
 @media (max-width: 1920px) {
   .container {
     margin-right: 150px;
-    margin-left: 400px;
+    margin-left: 415px;
   }
 
   .logo {
@@ -19,7 +19,7 @@
 @media (max-width: 1600px) {
   .container {
     margin-right: 150px;
-    margin-left: 250px;
+    margin-left: 265px;
   }
 
   .header__active {
@@ -37,7 +37,7 @@
 @media (max-width: 1440px) {
   .container {
     margin-right: 100px;
-    margin-left: 175px;
+    margin-left: 190px;
   }
 
   .header__inner-img {
@@ -85,7 +85,7 @@
 @media (max-width: 1366px) {
   .container {
     margin-right: 75px;
-    margin-left: 125px;
+    margin-left: 140px;
   }
 
   .header__inner-img {
@@ -148,7 +148,7 @@
 @media (max-width: 1250px) {
   .container {
     margin-right: 50px;
-    margin-left: 75px;
+    margin-left: 90px;
   }
 
   .header__active {
@@ -166,7 +166,7 @@
 @media (max-width: 1150px) {
   .container {
     margin-right: 20px;
-    margin-left: 35px;
+    margin-left: 45px;
   }
   .header {
     margin-right: 40px;
@@ -182,6 +182,7 @@
   }
   .header__active {
     padding: 0 75px 0 50px;
+    grid-template-columns: 45px 1035px;
   }
 
   .main__inner-info {

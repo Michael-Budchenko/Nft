@@ -1041,7 +1041,8 @@ input[type="number"] {
   align-items: center;
   justify-items: stretch;
   align-content: center;
-  grid-template-columns: 525px 525px;
+  justify-items: center;
+  grid-template-columns: 540px 1035px;
 }
 .disabe__scroll {
   position: relative;

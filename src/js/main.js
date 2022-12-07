@@ -89,12 +89,12 @@ $(function () {
 
 const header = document.querySelector("#header__inner-fixed");
 const headerInner = document.querySelector(".header__inner");
-const headerInnerHeight = headerInner.offsetHeight;
+const headerInnerHeight = headerInner.offsetHeight - 50;
 
 window.addEventListener("scroll", () => {
   let scrollDistance = window.scrollY;
 
-  if (scrollDistance >= headerInnerHeight - 40) {
+  if (scrollDistance >= headerInnerHeight) {
     header.classList.add("header__active");
   } else {
     header.classList.remove("header__active");
@@ -184,11 +184,3 @@ for (let i = 0; i < coll.length; i++) {
     }
   });
 }
-
-
-
-
-
-
-
-
