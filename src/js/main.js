@@ -89,7 +89,7 @@ $(function () {
 
 const header = document.querySelector("#header__inner-fixed");
 const headerInner = document.querySelector(".header__inner");
-const headerInnerHeight = headerInner.offsetHeight - 50;
+const headerInnerHeight = headerInner.offsetHeight;
 
 window.addEventListener("scroll", () => {
   let scrollDistance = window.scrollY;
